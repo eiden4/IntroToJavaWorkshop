@@ -1,15 +1,19 @@
 package day1.robot;
 
+import org.jointheleague.graphical.robot.Robot;
+
 public class Spiral {
 
 	public static void main(String[] args) {
 		// 1. Create a new Robot and set its pen to the down position
-
+Robot nellie=new Robot
+nellie.penDown();
 		// 3. Set the robot to go at max speed (10)
-
+nellie.setSpeed(10);
 		// 4. Do the following (steps 5-8) 75 times
 
 			// 6. Change the pen color to random
+	nellie.setRandomPenColor();
 	
 			// 5. Move the robot 5 times the current line number you are drawing (5*i)
 	
